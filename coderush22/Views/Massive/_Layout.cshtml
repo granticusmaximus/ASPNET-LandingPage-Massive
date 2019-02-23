@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <!--====== USEFULL META ======-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Massive HTML5 Template is a simple Smooth Personal App Landing Template" />
+    <meta name="keywords" content="App, Landing, Business, Onepage, Html, Business" />
+    <!--====== TITLE TAG ======-->
+    <title>@ViewData["Title"] - Asp.Net Core 2.2</title>
+    <!--====== FAVICON ICON =======-->
+    <link rel="shortcut icon" type="image/ico" href="~/template/massive/img/favicon.png" />
+    <!--====== STYLESHEETS ======-->
+    <link rel="stylesheet" href="~/template/massive/css/normalize.css">
+    <link rel="stylesheet" href="~/template/massive/css/animate.css">
+    <link rel="stylesheet" href="~/template/massive/css/modal-video.min.css">
+    <link rel="stylesheet" href="~/template/massive/css/stellarnav.min.css">
+    <link rel="stylesheet" href="~/template/massive/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/template/massive/css/slick.css">
+    <link href="~/template/massive/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/template/massive/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/template/massive/css/material-icons.css" rel="stylesheet">
+    <!--====== MAIN STYLESHEETS ======-->
+    <link href="~/template/massive/style.css" rel="stylesheet">
+    <link href="~/template/massive/css/responsive.css" rel="stylesheet">
+    <script src="~/template/massive/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body class="home-one" data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!--- PRELOADER -->
+    <div class="preeloader">
+        <div class="preloader-spinner"></div>
+    </div>
+    <!--SCROLL TO TOP-->
+    <a href="#home" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    <!--START TOP AREA-->
+    @await Html.PartialAsync("_header")
+    <!--END TOP AREA-->
+    @RenderBody()
+    <!--FOOER AREA-->
+    @await Html.PartialAsync("_footer")
+    <!--FOOER AREA END-->
+    <!--====== SCRIPTS JS ======-->
+    <script src="~/template/massive/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/template/massive/js/vendor/bootstrap.min.js"></script>
+    <!--====== PLUGINS JS ======-->
+    <script src="~/template/massive/js/vendor/jquery.easing.1.3.js"></script>
+    <script src="~/template/massive/js/vendor/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/template/massive/js/vendor/jquery.appear.js"></script>
+    <script src="~/template/massive/js/owl.carousel.min.js"></script>
+    <script src="~/template/massive/js/slick.min.js"></script>
+    <script src="~/template/massive/js/stellar.js"></script>
+    <script src="~/template/massive/js/wow.min.js"></script>
+    <script src="~/template/massive/js/jquery-modal-video.min.js"></script>
+    <script src="~/template/massive/js/stellarnav.min.js"></script>
+    <script src="~/template/massive/js/contact-form.js"></script>
+    <script src="~/template/massive/js/jquery.ajaxchimp.js"></script>
+    <script src="~/template/massive/js/jquery.sticky.js"></script>
+    <!--===== ACTIVE JS=====-->
+    <script src="~/template/massive/js/main.js"></script>
+</body>
+</html>
